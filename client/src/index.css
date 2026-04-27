@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+*{
+  font-family: "Outfit", sans-serif;
+}
+
+html, body {
+  background-color: white;
+  color: #000;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+html.dark, body.dark {
+  background-color: rgb(17, 24, 39);
+  color: #fff;
+}
+
+/* Tailwind config removed from CSS file. Place this in tailwind.config.js instead. */
+
+/*jab bhi color-primary use karna ho to direct color use karlo*/
+.reset-tw, .reset-tw * {
+  all: revert !important
+}
+
+.cl-drawerRoot{
+  z-index: 10;
+}
