@@ -1,4 +1,4 @@
-import 'pdf-parse/lib/pdf.js/v1.10.100/build/pdf.js';
+import pdf from 'pdf-parse';
 import express from 'express';
 import cors from 'cors';
 import 'dotenv/config';
