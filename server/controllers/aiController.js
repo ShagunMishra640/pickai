@@ -285,7 +285,7 @@ if(resume.size > 5*1024*1024){
 }
 
 const dataBuffer = fs.readFileSync(resume.path)
-const textResult = await PDFParse({ dataBuffer })
+const textResult = await PDFParse( dataBuffer )
 {/*const textResult = await parser.getText()
 await parser.destroy()*/}
 
